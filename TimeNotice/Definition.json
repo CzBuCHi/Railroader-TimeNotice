@@ -1,0 +1,7 @@
+{
+    "manifestVersion": 1,
+    "id": "CzBuCHi.TimeNotice",
+    "name": "Time Notice",
+    "version": "$(AssemblyVersion)",
+    "assemblies": [ "CzBuCHi.TimeNotice" ]
+}
