@@ -44,7 +44,7 @@ public sealed class TimeNoticePlugin : SingletonPluginBase<TimeNoticePlugin>, IM
     }
 
     private static void ShowNotification(NotifyInfo notifyInfo) {
-        WindowManager.Shared!.Present(new Alert(AlertStyle.Toast, notifyInfo.Message, TimeWeather.Now.TotalSeconds));
+        WindowManager.Shared!.Present(new Alert(AlertStyle.Console, notifyInfo.Message, TimeWeather.Now.TotalSeconds));
     }
 
     private static void SaveSettings() {
